@@ -19,13 +19,13 @@ Install these requirements:
 * [PyTorch](https://pytorch.org) and Torchvision
 * Pillow
 * NumPy
-* [DiffVG](https://github.com/BachiLi/diffvg) and its requirements
+* [DiffVG](https://github.com/IzhanVarsky/diffvg) and its requirements
 
 Example steps of installing:
 
 * `pip install torch torchvision pillow numpy`
 * `pip install cssutils scikit-learn scikit-image svgwrite svgpathtools matplotlib`
-* `git clone --recursive https://github.com/BachiLi/diffvg`
+* `git clone --recursive https://github.com/IzhanVarsky/diffvg`
 * `cd diffvg && python ./setup.py install && cd ..`
 
 ### Testing
