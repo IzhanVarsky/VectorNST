@@ -10,4 +10,26 @@ The official implementation of VectorNST (vector neural style transfer) model in
 
 [Demo service](http://109.188.135.85:5001/vector_style_transfer).
 
-**The code will be published soon.**
+## Usage
+
+### Requirements
+
+Install these requirements:
+
+* [PyTorch](https://pytorch.org) and Torchvision
+* Pillow
+* NumPy
+* [DiffVG](https://github.com/BachiLi/diffvg) and its requirements
+
+Example steps of installing:
+
+* `pip install torch torchvision pillow numpy`
+* `pip install cssutils scikit-learn scikit-image svgwrite svgpathtools matplotlib`
+* `git clone --recursive https://github.com/BachiLi/diffvg`
+* `cd diffvg && python ./setup.py install && cd ..`
+
+### Testing
+
+Run our example `python test_vector_nst.py --content_img ./images/owl.svg --style_img ./images/owl1.jpg`.
+
+You can also specify some other parameters: run `python test_vector_nst.py --help` to see more info.

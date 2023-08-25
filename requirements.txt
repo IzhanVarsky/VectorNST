@@ -1,0 +1,19 @@
+# Model requirements
+tqdm
+numpy
+Pillow
+torch
+torchvision
+#diffvg
+
+# PyDiffVG Python dependencies
+cssutils
+scikit-learn
+scikit-image
+svgwrite
+svgpathtools
+matplotlib
+torch-tools
+numba
+visdom
+cmake
