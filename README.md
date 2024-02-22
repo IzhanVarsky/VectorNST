@@ -8,7 +8,7 @@
 
 The official implementation of VectorNST (vector neural style transfer) model in PyTorch.
 
-[Demo service](http://109.188.135.85:5001/vector_style_transfer).
+[Demo service](http://81.3.154.178:5001/vector_style_transfer).
 
 ## Usage
 
